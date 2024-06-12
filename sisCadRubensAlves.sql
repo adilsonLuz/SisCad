@@ -27,6 +27,7 @@ estado varchar (2)
 
 CREATE TABLE tb_votacao (
 id int auto_increment primary key,
+data datetime,
 zona int,
 secao int,
 colegio varchar (100),
